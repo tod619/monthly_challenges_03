@@ -9,3 +9,6 @@ def january(request):
 def february(request):
     return HttpResponse("Walk for at least 20 minutes per day")
 
+def march(request):
+    return HttpResponse("Learn Django for 20 minutes every day")
+
